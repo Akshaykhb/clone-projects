@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.new-div {
+    margin-top: 35px;
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color: rgb(255, 255, 252);
+}
+
+.login {
+    border: 2px solid black;
+    text-align: center;
+    height: 410px;
+    width: 350px;
+    
+}
+
+.no-account {
+    border: 2px solid black;
+    width: 350px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.logo {
+    margin-top: 25px;
+    height: 80px;
+}
+
+.input-idpass {
+    margin-top: 15px;
+}
+
+#username {
+    margin: 4px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 3px;
+}
+
+#password {
+    margin: 4px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 3px;
+}
+
+#login-btn {
+    width: 270px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #90caf9;
+}
+
+#facebook {
+    text-decoration: none;
+}
+
+#forgot-pass {
+    text-decoration: none;
+}
+
+.other-login {
+    text-decoration: none;
+    color: rgb(12, 12, 130);
+    padding-top: 5px;
+    margin-top: 15px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+    height: 38px;
+    width: 120px;
+}
+
+#forgot-pass {
+    margin-top: -25px;
+}
+
+.class-4 {
+    padding: 27px;
+    text-align: center;
+}
+
+.footer-2 {
+    font-size: 14px;
+    word-spacing: 9px;
+    margin-top: 10px;
+
+}
+
+.other-links {
+    font-size: 14px;
+    word-spacing: 9px;
+
+}
+div a {
+    text-decoration: none;
+}
+
+.no-spacing {
+    word-spacing: 0%;
+}
+
+.center {
+    width: 350px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.upper-body {
+    padding-left: 25%;
+}
+
+@media (max-width: 480px) {
+}
