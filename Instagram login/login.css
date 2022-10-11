@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -8,21 +9,25 @@ body {
     padding-left: 25%;
     padding-right: 25%;
     background-color: rgb(255, 255, 252);
+    margin-bottom: 115px;
 }
 
 .login {
-    border: 2px solid black;
+    border: 2px solid #dbdbdb;
     text-align: center;
     height: 410px;
     width: 350px;
+    margin: auto;
     
 }
 
 .no-account {
-    border: 2px solid blueviolet;
+    border: 2px solid #dbdbdb;
     width: 350px;
     margin-top: 10px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo {
@@ -39,6 +44,8 @@ body {
     padding: 10px;
     width: 250px;
     border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    background-color: rgb(247, 247, 252);
 }
 
 #password {
@@ -46,22 +53,41 @@ body {
     padding: 10px;
     width: 250px;
     border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    background-color: rgb(247, 247, 252);
+}
+.color{
+    color: rgb(149, 149, 146) ;
 }
 
+.text_size{
+    font-weight: normal;
+    color: rgb(82, 92, 111);
+}
+
+#Sign_color{
+    color: rgb(41, 152, 183);
+    font-size: 15px;
+    font-weight: bolder;
+}
 #login-btn {
     width: 270px;
     margin: 10px;
     padding: 5px;
     border-radius: 4px;
-    background-color: #90caf9;
+    background-color: rgba(0,149,240,0.3);
+    border: none;
+    color: white;
 }
 
 #facebook {
     text-decoration: none;
+    color: rgb(87, 102, 133);
 }
 
 #forgot-pass {
     text-decoration: none;
+    color: rgb(82, 92, 111);
 }
 
 .other-login {
@@ -83,6 +109,7 @@ body {
 
 #forgot-pass {
     margin-top: -25px;
+    font-size: 13px;
 }
 
 .class-4 {
@@ -96,29 +123,37 @@ body {
     margin-top: 10px;
 
 }
+.no_border{
+    border: none;
+    color: #8d8b8b;
+}
 
 .other-links {
     font-size: 14px;
     word-spacing: 9px;
 
 }
+.font-family{
+    font-family: sans-serif;
+}
+
 div a {
     text-decoration: none;
+    
 }
 
 .no-spacing {
-    word-spacing: 0%;
+    word-spacing: 0px;
+    color: #8d8b8b;
 }
 
 .center {
     width: 350px;
-    margin-top: 10px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .upper-body {
-    padding-left: 25%;
-}
-
-@media (max-width: 480px) {
+    margin-top:10% ;
 }
